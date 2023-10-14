@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.Head {
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: white;
+    margin: 5px auto;
+    text-align: center;
+    border: 5px solid #eee;
+    width: fit-content;
+    border-radius: 3%;
+    background-color: black;
+    padding: 1.5%;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    margin: auto;
+    padding: 1%;
+    height: fit-content;
+    border-radius: 1rem;
+    max-width: fit-content;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.heading hr {
+    border-bottom: 10px solid black;
+    border-style: dotted;
+    width: 10%;
+    border-top: 0;
+    margin-left: 45%;
+}
+
+.heading h4 {
+    font-size: 2rem;
+}
+
+
+.Newform {
+    font-size: 2rem;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+
+
+}
+
+.writingform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1%;
+    border: 2px solid black;
+    padding: 1%;
+    border-radius: 2%;
+}
+
+.writingform h5 {
+    color: black;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    background-color: black;
+    border: 5px solid black;
+
+
+}
+
+.card-body {
+    height: fit-content;
+    width: 20rem;
+    background-color: white;
+    padding: 1%;
+    border: 5px solid black;
+    margin: 1%;
+    border-radius: 1rem;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.card-body p {
+    font-size: 2rem;
+}
+
+.card-body h5 {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    word-wrap: break-word;
+    padding: 5%;
+}
+
+/* .cards */
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+}
+
+.card {
+    height: fit-content;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        margin: auto;
+
+    }
+
+    .card {
+        flex-direction: column;
+    }
+}
